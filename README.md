@@ -30,7 +30,7 @@ gain of the subtracted file, uses def 1.41 when stereo-mono
 delay in samples applied to subtracted file, can be negative
 ```
 
-Spectral subtraction of 2 signals, magnitudes are subtracted, firts file retains phase, phase of thesecond file is set to zero
+Spectral subtraction of 2 signals, magnitudes are subtracted, first file retains phase, phase of the second file is set to zero
 
 When subtracting mono signal from stereo, it is important to set gain to 1.41 (square root of 2) to compensate
 
