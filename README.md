@@ -5,7 +5,7 @@ Utilities for working with vocal files for Windows command line.
 >2 vendors of Virustotal.com flag the files as malicious - don't worry, please check the checksums
 
 ## fmid.exe - Middle/center from stereo signal extractor
-<sup>167424 bytes, CRC32: BCA27DF0, CRC64: FA194582A284D09C, SHA256: F0340B5C82AB38B22972919EFDBB46C827BB03AF0A2B9341906716A5A88FD750</sup>
+<sup>167424 bytes, CRC32: 6F33AFB0, CRC64: 5EC1B4514AA28191, SHA256: 10ED1422D2827A441A9AB3E52097068EAF583268BFE6FE2B880944FC46784377</sup>
 
 ```
 fmid <stereo.wav> <out_middle.wav>
