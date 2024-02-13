@@ -40,3 +40,12 @@ You can use higher gain but for the price of distortion.
 
 Subtract the midd/center mono vocal (from fmid.exe see above) from all vocals (got from stem separation sw) - you receive only side signal
 
+## foctave.exe - One octave up voice converter
+<sup>52736 bytes, CRC32: 361A8E06, CRC64: 4F5AB043A23B87B5, SHA256: B3504AE4C6289AD8A6EDE372B864503F790ACB0F359663F238760C8A78F4EB67</sup>
+
+```
+foctave <pitch.txt> <input.wav> <output.wav>
+```
+* input pitch: Praat's short text pitch object format containing analyzed pitch of the input wav
+* input wav file: RIFF wave PCM, 1 channel (mono), 16 bit/ch, singing voice or speech
+* output file will contain only even harmonics of the input signal, effectively shifting it up one octave with speaker's vocal characteristics retained
